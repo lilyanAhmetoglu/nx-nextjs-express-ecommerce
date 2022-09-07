@@ -2,6 +2,9 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
-    "api": "apps/api"
+    "api": "apps/api",
+    "shared-types": "libs/shared-types",
+    "shop": "apps/shop",
+    "shop-e2e": "apps/shop-e2e"
   }
 }
